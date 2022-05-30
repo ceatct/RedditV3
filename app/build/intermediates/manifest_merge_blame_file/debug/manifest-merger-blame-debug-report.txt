@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.reddit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\projects\Reddit\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\projects\Reddit\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:7:5-67
+11-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:7:22-64
+12
+13    <application
+13-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:9:5-31:19
+14        android:allowBackup="true"
+14-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:10:9-35
+15        android:appComponentFactory="@string/app_name"
+15-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:20:9-55
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:11:9-65
+17        android:debuggable="true"
+18        android:fullBackupContent="@xml/backup_rules"
+18-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:12:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:13:9-43
+20        android:label="@string/app_name"
+20-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:14:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:15:9-54
+22        android:supportsRtl="true"
+22-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:16:9-35
+23        android:theme="@style/Theme.Reddit" >
+23-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:17:9-44
+24        <activity
+24-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:21:9-30:20
+25            android:name="com.example.reddit.MainActivity"
+25-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:22:13-41
+26            android:exported="true"
+26-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:23:13-36
+27            android:theme="@style/Theme.Reddit.NoActionBar" >
+27-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:24:13-60
+28            <intent-filter>
+28-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:25:13-29:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:26:17-69
+29-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:26:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:28:17-77
+31-->C:\projects\Reddit\app\src\main\AndroidManifest.xml:28:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <uses-library
+35-->[androidx.window:window:1.0.0] C:\Users\Александр\.gradle\caches\transforms-3\e5a030ff3c806132cb506da6af6fcd6c\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+36            android:name="androidx.window.extensions"
+36-->[androidx.window:window:1.0.0] C:\Users\Александр\.gradle\caches\transforms-3\e5a030ff3c806132cb506da6af6fcd6c\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+37            android:required="false" />
+37-->[androidx.window:window:1.0.0] C:\Users\Александр\.gradle\caches\transforms-3\e5a030ff3c806132cb506da6af6fcd6c\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+38        <uses-library
+38-->[androidx.window:window:1.0.0] C:\Users\Александр\.gradle\caches\transforms-3\e5a030ff3c806132cb506da6af6fcd6c\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+39            android:name="androidx.window.sidecar"
+39-->[androidx.window:window:1.0.0] C:\Users\Александр\.gradle\caches\transforms-3\e5a030ff3c806132cb506da6af6fcd6c\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+40            android:required="false" />
+40-->[androidx.window:window:1.0.0] C:\Users\Александр\.gradle\caches\transforms-3\e5a030ff3c806132cb506da6af6fcd6c\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+41
+42        <provider
+42-->[com.squareup.picasso:picasso:2.71828] C:\Users\Александр\.gradle\caches\transforms-3\f1d68a673d70eb6ffb3f5147a14aae1e\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+43            android:name="com.squareup.picasso.PicassoProvider"
+43-->[com.squareup.picasso:picasso:2.71828] C:\Users\Александр\.gradle\caches\transforms-3\f1d68a673d70eb6ffb3f5147a14aae1e\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+44            android:authorities="com.example.reddit.com.squareup.picasso"
+44-->[com.squareup.picasso:picasso:2.71828] C:\Users\Александр\.gradle\caches\transforms-3\f1d68a673d70eb6ffb3f5147a14aae1e\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+45            android:exported="false" />
+45-->[com.squareup.picasso:picasso:2.71828] C:\Users\Александр\.gradle\caches\transforms-3\f1d68a673d70eb6ffb3f5147a14aae1e\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+46        <provider
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Александр\.gradle\caches\transforms-3\3348e8ab5e2abb23a006247eaa42dbef\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Александр\.gradle\caches\transforms-3\3348e8ab5e2abb23a006247eaa42dbef\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+48            android:authorities="com.example.reddit.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Александр\.gradle\caches\transforms-3\3348e8ab5e2abb23a006247eaa42dbef\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Александр\.gradle\caches\transforms-3\3348e8ab5e2abb23a006247eaa42dbef\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Александр\.gradle\caches\transforms-3\3348e8ab5e2abb23a006247eaa42dbef\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Александр\.gradle\caches\transforms-3\3348e8ab5e2abb23a006247eaa42dbef\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Александр\.gradle\caches\transforms-3\3348e8ab5e2abb23a006247eaa42dbef\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Александр\.gradle\caches\transforms-3\1a1a2041f739d9cae13e9a62b01903b8\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Александр\.gradle\caches\transforms-3\1a1a2041f739d9cae13e9a62b01903b8\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Александр\.gradle\caches\transforms-3\1a1a2041f739d9cae13e9a62b01903b8\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>
